@@ -1,0 +1,29 @@
+body {
+  background-color: purple;
+  margin: 50px;
+  padding-right: 30px;  
+}
+div {
+  background-color: greenyellow;
+  border: 5px;
+  text-align: center;
+}
+
+span {
+  background-color: aquamarine;
+  align-items: center;
+  text-align: center;
+  width:300px;
+  height: 75px;
+  display: inline-table;
+  border: 10px solid yellow;
+}
+
+.hello {
+  float: left;
+  width: 300px;
+  height: 450px;
+}
+
+
+
