@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <!--
+        Action : is the page where collected values will be handled.
+        Method : get / post | get is not secure, but the post is the secure one
+                 get enables bookmarking the page with the given details/values
+                 post cannot be bookmarked with the values
+        Name : identify the form and help action page to understand which form to 
+               process. 
+    -->
+    <form action="result.html" method="get" name="myform">
+        <!--
+            select>option*4
+        -->
+        <label for="fruits">Fruits: </label>
+        <select name="fruits" id="fruits" multiple size="8" >
+            <optgroup label="yellow">
+                <option value="Grapes" disabled >Lemon</option>
+                <option value="Orange">Orange</option>
+                <option value="Banana">Banana</option>
+            </optgroup>
+            <optgroup label="other">
+                <option value="Apple">Apple</option>
+                <option value="Grapes">Grapes</option>
+                <option value="Grapes" selected >Mango</option>
+            </optgroup>
+        </select>
+
+        <br><br><br>
+        <label for="comment">Comment:</label>
+        <textarea  style="resize: none;"
+                    name="comment" 
+                    id="comment" 
+                    cols="20" 
+                    rows="10"
+                    maxlength="10"
+                    placeholder="Share your comment">
+        </textarea>
+
+        <br><br><br>
+
+        <label for="browser">Browsers: </label>
+        <select name="fruits" id="fruits" multiple size="8" >
+            <optgroup label="yellow">
+                <option value="Grapes" disabled >Lemon</option>
+                <option value="Orange">Orange</option>
+                <option value="Banana">Banana</option>
+            </optgroup>
+            <optgroup label="other">
+                <option value="Apple">Apple</option>
+                <option value="Grapes">Grapes</option>
+                <option value="Grapes" selected >Mango</option>
+            </optgroup>
+        </select>
+
+        <input type="submit" value="SubMit">
+
+    </form>
+</body>
+</html>
+
+
+
+
+
+    </form>
+</body>
+</html>
